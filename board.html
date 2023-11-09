@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        main{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 100vw;
+            height: 70vh;
+        }
+        .grid{
+            display: grid;
+            grid-template-columns: repeat(3,1fr);
+            grid-template-rows: repeat(3,1fr);
+            border: 3px solid;
+            width: 400px;
+            height: 400px;
+            overflow: hidden;
+        }
+        .row{
+            background-color: rgb(251, 245, 245);
+            display: grid;
+            grid-template-columns: repeat(3,1fr);
+            grid-template-rows: repeat(3,1fr);
+            border: 1.5px solid;
+        }
+        .col{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border: 1px solid rgb(159, 154, 154);
+            font-weight: bolder;
+            font-size: 25px;
+        }
+        .col:hover{
+            background-color: rgb(0, 140, 255);
+        }
+        footer{
+            text-align: center;
+        }
+   
+    </style>
+</head>
+<body>
+    <main>
+        <div class="grid">
+            <!-- column one -->
+            <div class="row">
+                <div class="col"></div>
+                <div class="col"></div>
+                <div class="col"></div>
+                <div class="col"></div>
+                <div class="col"></div>
+                <div class="col"></div>
+                <div class="col"></div>
+                <div class="col"></div>
+                <div class="col"></div>
+            </div>
+
+            <div class="row">
+                <div class="col"></div>
+                <div class="col">4</div>
+                <div class="col"></div>
+                <div class="col">6</div>
+                <div class="col"></div>
+                <div class="col"></div>
+                <div class="col"></div>
+                <div class="col">8</div>
+                <div class="col">1</div>
+            </div>
+            <div class="row">
+                <div class="col"></div>
+                <div class="col"></div>
+                <div class="col">3</div>
+                <div class="col"></div>
+                <div class="col"></div>
+                <div class="col">2</div>
+                <div class="col"></div>
+                <div class="col">5</div>
+                <div class="col"></div>
+            </div>
+            <!-- -----------THREE-------- -->
+            <div class="row">
+                <div class="col">6</div>
+                <div class="col"></div>
+                <div class="col"></div>
+                <div class="col"></div>
+                <div class="col">1</div>
+                <div class="col"></div>
+                <div class="col"></div>
+                <div class="col"></div>
+                <div class="col">9</div>
+            </div>
+            <div class="row">
+                <div class="col"></div>
+                <div class="col"></div>
+                <div class="col">7</div>
+                <div class="col">3</div>
+                <div class="col"></div>
+                <div class="col"></div>
+                <div class="col"></div>
+                <div class="col">5</div>
+                <div class="col"></div>
+            </div>
+            <div class="row">
+                <div class="col"></div>
+                <div class="col">4</div>
+                <div class="col"></div>
+                <div class="col"></div>
+                <div class="col"></div>
+                <div class="col"></div>
+                <div class="col"></div>
+                <div class="col"></div>
+                <div class="col"></div>
+            </div>
+            <div class="row">
+                <div class="col"></div>
+                <div class="col"></div>
+                <div class="col"></div>
+                <div class="col"></div>
+                <div class="col"></div>
+                <div class="col">3</div>
+                <div class="col"></div>
+                <div class="col"></div>
+                <div class="col">6</div>
+            </div>
+            <div class="row">
+                <div class="col"></div>
+                <div class="col"></div>
+                <div class="col">3</div>
+                <div class="col">9</div>
+                <div class="col">2</div>
+                <div class="col">5</div>
+                <div class="col"></div>
+                <div class="col">7</div>
+                <div class="col">4</div>
+            </div>
+            <div class="row">
+                <div class="col"></div>
+                <div class="col"></div>
+                <div class="col">5</div>
+                <div class="col"></div>
+                <div class="col">7</div>
+                <div class="col">4</div>
+                <div class="col"></div>
+                <div class="col">8</div>
+                <div class="col"></div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="container">
+            <h1>WepTech Assignment</h1>
+            <h2>Neptune: THA6ZP</h2>
+            <h2>Name: Hoeurn Dareach</h2>
+        </div>
+
+    </footer>
+</body>
+</html>
